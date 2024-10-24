@@ -62,20 +62,21 @@
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
-
-	</head>
-	<body>
+	<style>
 		
-	<div class="fh5co-loader"></div>
-	
-	
+		.card-img-top {
+			transition: transform 0.3s;
+		}
+		.card-img-top:hover {
+			transform: scale(1.2);
+		}
+	</style>
+</head>
+<body>
 
-		@include('nav')
-	
+	<!-- Navbar -->
+	@include('nav')
+
 	<aside id="fh5co-hero">
 		<div class="flexslider">
 			<ul class="slides">
@@ -96,88 +97,134 @@
 	  	</div>
 	</aside>
 
-	<div id="fh5co-course">
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
-					<h2>Our Course</h2>
-					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-6 animate-box">
-					<div class="course">
-						<a href="#" class="course-img" style="background-image: url(images/project-1.jpg);">
-						</a>
-						<div class="desc">
-							<h3><a href="#">Web Master</a></h3>
-							<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-							<span><a href="#" class="btn btn-primary btn-sm btn-course">Take A Course</a></span>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 animate-box">
-					<div class="course">
-						<a href="#" class="course-img" style="background-image: url(images/project-2.jpg);">
-						</a>
-						<div class="desc">
-							<h3><a href="#">Business &amp; Accounting</a></h3>
-							<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-							<span><a href="#" class="btn btn-primary btn-sm btn-course">Take A Course</a></span>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 animate-box">
-					<div class="course">
-						<a href="#" class="course-img" style="background-image: url(images/project-3.jpg);">
-						</a>
-						<div class="desc">
-							<h3><a href="#">Science &amp; Technology</a></h3>
-							<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-							<span><a href="#" class="btn btn-primary btn-sm btn-course">Take A Course</a></span>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 animate-box">
-					<div class="course">
-						<a href="#" class="course-img" style="background-image: url(images/project-4.jpg);">
-						</a>
-						<div class="desc">
-							<h3><a href="#">Health &amp; Psychology</a></h3>
-							<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-							<span><a href="#" class="btn btn-primary btn-sm btn-course">Take A Course</a></span>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 animate-box">
-					<div class="course">
-						<a href="#" class="course-img" style="background-image: url(images/project-5.jpg);">
-						</a>
-						<div class="desc">
-							<h3><a href="#">Science &amp; Technology</a></h3>
-							<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-							<span><a href="#" class="btn btn-primary btn-sm btn-course">Take A Course</a></span>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-6 animate-box">
-					<div class="course">
-						<a href="#" class="course-img" style="background-image: url(images/project-6.jpg);">
-						</a>
-						<div class="desc">
-							<h3><a href="#">Health &amp; Psychology</a></h3>
-							<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-							<span><a href="#" class="btn btn-primary btn-sm btn-course">Take A Course</a></span>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+	<!-- School Fees Section -->
+	<div class="container">
+    <h2 class="text-center">School Fees for Classes</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+            <div class="card mx-auto" style="background-color: #ffcccc; width: 18rem;">
+                <div class="card-body text-center">
+                    <h5 class="card-title">P1</h5>
+                    <p class="card-text">Fees: $500</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mx-auto" style="background-color: #ccffcc; width: 18rem;">
+                <div class="card-body text-center">
+                    <h5 class="card-title">P2</h5>
+                    <p class="card-text">Fees: $550</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mx-auto" style="background-color: #cce6ff; width: 18rem;">
+                <div class="card-body text-center">
+                    <h5 class="card-title">P3</h5>
+                    <p class="card-text">Fees: $600</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mx-auto" style="background-color: #ffffcc; width: 18rem;">
+                <div class="card-body text-center">
+                    <h5 class="card-title">P4</h5>
+                    <p class="card-text">Fees: $650</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mx-auto" style="background-color: #ffccff; width: 18rem;">
+                <div class="card-body text-center">
+                    <h5 class="card-title">P5</h5>
+                    <p class="card-text">Fees: $700</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mx-auto" style="background-color: #ffccff; width: 18rem;">
+                <div class="card-body text-center">
+                    <h5 class="card-title">P6</h5>
+                    <p class="card-text">Fees: $700</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mx-auto" style="background-color: #ffd1b3; width: 18rem;">
+                <div class="card-body text-center">
+                    <h5 class="card-title">P7</h5>
+                    <p class="card-text">Fees: $750</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-	
-	
-     @include('footer')
+
+<<!-- Best Students Section -->
+<div class="container mt-5">
+    <h2 class="text-center">Top 10 Best Students</h2>
+
+    <!-- Best Students -->
+    <h3 class="text-center">Best Students</h3>
+
+    <div class="d-flex flex-wrap justify-content-center">
+        <div class="card m-3" v-for="student in s4Students" style="width: 200px;">
+            <img class="card-img-top" src="{{ asset('images/person1.jpg') }}" alt="Student photo" style="width: 200px; height: 200px; object-fit: cover;" />
+            <div class="card-body text-center">
+                <h5 class="card-title">Student Name</h5>
+                <p class="card-text">Position: 1</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Repeat for other students -->
+    <div class="d-flex flex-wrap justify-content-center">
+        <div class="card m-3" v-for="student in s4Students" style="width: 200px;">
+            <img class="card-img-top" src="{{ asset('images/person1.jpg') }}" alt="Student photo" style="width: 200px; height: 200px; object-fit: cover;" />
+            <div class="card-body text-center">
+                <h5 class="card-title">Student Name</h5>
+                <p class="card-text">Position: 1</p>
+            </div>
+        </div>
+    </div>
+
+	<div class="d-flex flex-wrap justify-content-center">
+        <div class="card m-3" v-for="student in s4Students" style="width: 200px;">
+            <img class="card-img-top" src="{{ asset('images/person1.jpg') }}" alt="Student photo" style="width: 200px; height: 200px; object-fit: cover;" />
+            <div class="card-body text-center">
+                <h5 class="card-title">Student Name</h5>
+                <p class="card-text">Position: 1</p>
+            </div>
+        </div>
+    </div>
+
+	<div class="d-flex flex-wrap justify-content-center">
+        <div class="card m-3" v-for="student in s4Students" style="width: 200px;">
+            <img class="card-img-top" src="{{ asset('images/person1.jpg') }}" alt="Student photo" style="width: 200px; height: 200px; object-fit: cover;" />
+            <div class="card-body text-center">
+                <h5 class="card-title">Student Name</h5>
+                <p class="card-text">Position: 1</p>
+            </div>
+        </div>
+    </div>
+
+	<div class="d-flex flex-wrap justify-content-center">
+        <div class="card m-3" v-for="student in s4Students" style="width: 200px;">
+            <img class="card-img-top" src="{{ asset('images/person1.jpg') }}" alt="Student photo" style="width: 200px; height: 200px; object-fit: cover;" />
+            <div class="card-body text-center">
+                <h5 class="card-title">Student Name</h5>
+                <p class="card-text">Position: 1</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+	<!-- Footer -->
+	@include('footer')
+
 				
 
 	<div class="gototop js-top">
