@@ -162,64 +162,136 @@
 
 
 <<!-- Best Students Section -->
-<div class="container mt-5">
+
     <h2 class="text-center">Top 10 Best Students</h2>
 
-    <!-- Best Students -->
-    <h3 class="text-center">Best Students</h3>
-
-    <div class="d-flex flex-wrap justify-content-center">
-        <div class="card m-3" v-for="student in s4Students" style="width: 200px;">
-            <img class="card-img-top" src="{{ asset('images/person1.jpg') }}" alt="Student photo" style="width: 200px; height: 200px; object-fit: cover;" />
-            <div class="card-body text-center">
-                <h5 class="card-title">Student Name</h5>
-                <p class="card-text">Position: 1</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- Repeat for other students -->
-    <div class="d-flex flex-wrap justify-content-center">
-        <div class="card m-3" v-for="student in s4Students" style="width: 200px;">
-            <img class="card-img-top" src="{{ asset('images/person1.jpg') }}" alt="Student photo" style="width: 200px; height: 200px; object-fit: cover;" />
-            <div class="card-body text-center">
-                <h5 class="card-title">Student Name</h5>
-                <p class="card-text">Position: 1</p>
-            </div>
-        </div>
-    </div>
-
-	<div class="d-flex flex-wrap justify-content-center">
-        <div class="card m-3" v-for="student in s4Students" style="width: 200px;">
-            <img class="card-img-top" src="{{ asset('images/person1.jpg') }}" alt="Student photo" style="width: 200px; height: 200px; object-fit: cover;" />
-            <div class="card-body text-center">
-                <h5 class="card-title">Student Name</h5>
-                <p class="card-text">Position: 1</p>
-            </div>
-        </div>
-    </div>
-
-	<div class="d-flex flex-wrap justify-content-center">
-        <div class="card m-3" v-for="student in s4Students" style="width: 200px;">
-            <img class="card-img-top" src="{{ asset('images/person1.jpg') }}" alt="Student photo" style="width: 200px; height: 200px; object-fit: cover;" />
-            <div class="card-body text-center">
-                <h5 class="card-title">Student Name</h5>
-                <p class="card-text">Position: 1</p>
-            </div>
-        </div>
-    </div>
-
-	<div class="d-flex flex-wrap justify-content-center">
-        <div class="card m-3" v-for="student in s4Students" style="width: 200px;">
-            <img class="card-img-top" src="{{ asset('images/person1.jpg') }}" alt="Student photo" style="width: 200px; height: 200px; object-fit: cover;" />
-            <div class="card-body text-center">
-                <h5 class="card-title">Student Name</h5>
-                <p class="card-text">Position: 1</p>
-            </div>
-        </div>
-    </div>
-</div>
-
+    	
+	<div id="fh5co-staff">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 text-center">
+					<div class="staff">
+						<div class="staff-img" style="background-image: url(images/staff-1.jpg);">
+							<ul class="fh5co-social">
+								<li><a href="#"><i class="icon-facebook2"></i></a></li>
+								<li><a href="#"><i class="icon-twitter2"></i></a></li>
+								<li><a href="#"><i class="icon-dribbble2"></i></a></li>
+								<li><a href="#"><i class="icon-github"></i></a></li>
+							</ul>
+						</div>
+						<span>Health Teacher</span>
+						<h3><a href="#">Mike Smith</a></h3>
+						
+					</div>
+				</div>
+				<div class="col-md-3 animate-box text-center">
+					<div class="staff">
+						<div class="staff-img" style="background-image: url(images/staff-2.jpg);">
+							<ul class="fh5co-social">
+								<li><a href="#"><i class="icon-facebook2"></i></a></li>
+								<li><a href="#"><i class="icon-twitter2"></i></a></li>
+								<li><a href="#"><i class="icon-dribbble2"></i></a></li>
+								<li><a href="#"><i class="icon-github"></i></a></li>
+							</ul>
+						</div>
+						<span>Health Teacher</span>
+						<h3><a href="#">Mike Smith</a></h3>
+						
+					</div>
+				</div>
+				<div class="col-md-3 animate-box text-center">
+					<div class="staff">
+						<div class="staff-img" style="background-image: url(images/staff-3.jpg);">
+							<ul class="fh5co-social">
+								<li><a href="#"><i class="icon-facebook2"></i></a></li>
+								<li><a href="#"><i class="icon-twitter2"></i></a></li>
+								<li><a href="#"><i class="icon-dribbble2"></i></a></li>
+								<li><a href="#"><i class="icon-github"></i></a></li>
+							</ul>
+						</div>
+						<span>Health Teacher</span>
+						<h3><a href="#">Mike Smith</a></h3>
+						
+					</div>
+				</div>
+				<div class="col-md-3 animate-box text-center">
+					<div class="staff">
+						<div class="staff-img" style="background-image: url(images/staff-1.jpg);">
+							<ul class="fh5co-social">
+								<li><a href="#"><i class="icon-facebook2"></i></a></li>
+								<li><a href="#"><i class="icon-twitter2"></i></a></li>
+								<li><a href="#"><i class="icon-dribbble2"></i></a></li>
+								<li><a href="#"><i class="icon-github"></i></a></li>
+							</ul>
+						</div>
+						<span>Health Teacher</span>
+						<h3><a href="#">Mike Smith</a></h3>
+						
+					</div>
+				</div>
+				<div class="col-md-3 animate-box text-center">
+					<div class="staff">
+						<div class="staff-img" style="background-image: url(images/staff-1.jpg);">
+							<ul class="fh5co-social">
+								<li><a href="#"><i class="icon-facebook2"></i></a></li>
+								<li><a href="#"><i class="icon-twitter2"></i></a></li>
+								<li><a href="#"><i class="icon-dribbble2"></i></a></li>
+								<li><a href="#"><i class="icon-github"></i></a></li>
+							</ul>
+						</div>
+						<span>Health Teacher</span>
+						<h3><a href="#">Mike Smith</a></h3>
+						
+					</div>
+				</div>
+				<div class="col-md-3 animate-box text-center">
+					<div class="staff">
+						<div class="staff-img" style="background-image: url(images/staff-3.jpg);">
+							<ul class="fh5co-social">
+								<li><a href="#"><i class="icon-facebook2"></i></a></li>
+								<li><a href="#"><i class="icon-twitter2"></i></a></li>
+								<li><a href="#"><i class="icon-dribbble2"></i></a></li>
+								<li><a href="#"><i class="icon-github"></i></a></li>
+							</ul>
+						</div>
+						<span>Health Teacher</span>
+						<h3><a href="#">Mike Smith</a></h3>
+						
+					</div>
+				</div>
+				<div class="col-md-3 animate-box text-center">
+					<div class="staff">
+						<div class="staff-img" style="background-image: url(images/staff-2.jpg);">
+							<ul class="fh5co-social">
+								<li><a href="#"><i class="icon-facebook2"></i></a></li>
+								<li><a href="#"><i class="icon-twitter2"></i></a></li>
+								<li><a href="#"><i class="icon-dribbble2"></i></a></li>
+								<li><a href="#"><i class="icon-github"></i></a></li>
+							</ul>
+						</div>
+						<span>Health Teacher</span>
+						<h3><a href="#">Mike Smith</a></h3>
+						
+					</div>
+				</div>
+				<div class="col-md-3 animate-box text-center">
+					<div class="staff">
+						<div class="staff-img" style="background-image: url(images/staff-3.jpg);">
+							<ul class="fh5co-social">
+								<li><a href="#"><i class="icon-facebook2"></i></a></li>
+								<li><a href="#"><i class="icon-twitter2"></i></a></li>
+								<li><a href="#"><i class="icon-dribbble2"></i></a></li>
+								<li><a href="#"><i class="icon-github"></i></a></li>
+							</ul>
+						</div>
+						<span>Health Teacher</span>
+						<h3><a href="#">Mike Smith</a></h3>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 
 	<!-- Footer -->
