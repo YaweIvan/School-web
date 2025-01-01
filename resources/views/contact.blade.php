@@ -82,7 +82,7 @@
 			   			<div class="col-md-8 col-md-offset-2 text-center slider-text">
 			   				<div class="slider-text-inner">
 			   					<h1 class="heading-section">Contact us</h1>
-									<h2>Free html5 templates Made by <a href="http://freehtml5.co/" target="_blank">freehtml5.co</a></h2>
+									<h2>Budo Parents Academy <a href="http://freehtml5.co/" target="_blank">For Sustainable Future</a></h2>
 			   				</div>
 			   			</div>
 			   		</div>
@@ -100,10 +100,10 @@
 					<div class="fh5co-contact-info">
 						<h3>Contact Information</h3>
 						<ul>
-							<li class="address">198 West 21th Street, <br> Suite 721 New York NY 10016</li>
-							<li class="phone"><a href="tel://1234567920">+ 1235 2355 98</a></li>
-							<li class="email"><a href="mailto:info@yoursite.com">info@yoursite.com</a></li>
-							<li class="url"><a href="http://freehtml5.co">freeHTML5.co</a></li>
+							<li class="address">Buddo Nansove, <br> Kampala Uganda </li>
+							<li class="phone"><a href="tel://1234567920">+256 000 000 000</a></li>
+							<li class="email"><a href="mailto:info@yoursite.com">www.BPA.com</a></li>
+							<li class="url"><a href="http://freehtml5.co">yah way limited.com</a></li>
 						</ul>
 					</div>
 

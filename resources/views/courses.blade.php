@@ -173,13 +173,10 @@
 					<div class="staff">
 						<div class="staff-img" style="background-image: url(images/staff-1.jpg);">
 							<ul class="fh5co-social">
-								<li><a href="#"><i class="icon-facebook2"></i></a></li>
-								<li><a href="#"><i class="icon-twitter2"></i></a></li>
-								<li><a href="#"><i class="icon-dribbble2"></i></a></li>
-								<li><a href="#"><i class="icon-github"></i></a></li>
+							<P>AGG 4</P>
 							</ul>
 						</div>
-						<span>Health Teacher</span>
+						<span>AGG 4</span>
 						<h3><a href="#">Mike Smith</a></h3>
 						
 					</div>
@@ -188,13 +185,10 @@
 					<div class="staff">
 						<div class="staff-img" style="background-image: url(images/staff-2.jpg);">
 							<ul class="fh5co-social">
-								<li><a href="#"><i class="icon-facebook2"></i></a></li>
-								<li><a href="#"><i class="icon-twitter2"></i></a></li>
-								<li><a href="#"><i class="icon-dribbble2"></i></a></li>
-								<li><a href="#"><i class="icon-github"></i></a></li>
+							<P>AGG 4</P>
 							</ul>
 						</div>
-						<span>Health Teacher</span>
+						<span>AGG 4</span>
 						<h3><a href="#">Mike Smith</a></h3>
 						
 					</div>
@@ -203,13 +197,10 @@
 					<div class="staff">
 						<div class="staff-img" style="background-image: url(images/staff-3.jpg);">
 							<ul class="fh5co-social">
-								<li><a href="#"><i class="icon-facebook2"></i></a></li>
-								<li><a href="#"><i class="icon-twitter2"></i></a></li>
-								<li><a href="#"><i class="icon-dribbble2"></i></a></li>
-								<li><a href="#"><i class="icon-github"></i></a></li>
+							<P>AGG 4</P>
 							</ul>
 						</div>
-						<span>Health Teacher</span>
+						<span>AGG 4</span>
 						<h3><a href="#">Mike Smith</a></h3>
 						
 					</div>
@@ -218,13 +209,10 @@
 					<div class="staff">
 						<div class="staff-img" style="background-image: url(images/staff-1.jpg);">
 							<ul class="fh5co-social">
-								<li><a href="#"><i class="icon-facebook2"></i></a></li>
-								<li><a href="#"><i class="icon-twitter2"></i></a></li>
-								<li><a href="#"><i class="icon-dribbble2"></i></a></li>
-								<li><a href="#"><i class="icon-github"></i></a></li>
+							<P>AGG 4</P>
 							</ul>
 						</div>
-						<span>Health Teacher</span>
+						<span>AGG 4</span>
 						<h3><a href="#">Mike Smith</a></h3>
 						
 					</div>
@@ -233,13 +221,10 @@
 					<div class="staff">
 						<div class="staff-img" style="background-image: url(images/staff-1.jpg);">
 							<ul class="fh5co-social">
-								<li><a href="#"><i class="icon-facebook2"></i></a></li>
-								<li><a href="#"><i class="icon-twitter2"></i></a></li>
-								<li><a href="#"><i class="icon-dribbble2"></i></a></li>
-								<li><a href="#"><i class="icon-github"></i></a></li>
+							<P>AGG 4</P>
 							</ul>
 						</div>
-						<span>Health Teacher</span>
+						<span>AGG 4</span>
 						<h3><a href="#">Mike Smith</a></h3>
 						
 					</div>
@@ -248,13 +233,10 @@
 					<div class="staff">
 						<div class="staff-img" style="background-image: url(images/staff-3.jpg);">
 							<ul class="fh5co-social">
-								<li><a href="#"><i class="icon-facebook2"></i></a></li>
-								<li><a href="#"><i class="icon-twitter2"></i></a></li>
-								<li><a href="#"><i class="icon-dribbble2"></i></a></li>
-								<li><a href="#"><i class="icon-github"></i></a></li>
+							<P>AGG 4</P>
 							</ul>
 						</div>
-						<span>Health Teacher</span>
+						<span>AGG 4</span>
 						<h3><a href="#">Mike Smith</a></h3>
 						
 					</div>
@@ -263,13 +245,10 @@
 					<div class="staff">
 						<div class="staff-img" style="background-image: url(images/staff-2.jpg);">
 							<ul class="fh5co-social">
-								<li><a href="#"><i class="icon-facebook2"></i></a></li>
-								<li><a href="#"><i class="icon-twitter2"></i></a></li>
-								<li><a href="#"><i class="icon-dribbble2"></i></a></li>
-								<li><a href="#"><i class="icon-github"></i></a></li>
+								<P>AGG 4</P>
 							</ul>
 						</div>
-						<span>Health Teacher</span>
+						<span>AGG 4</span>
 						<h3><a href="#">Mike Smith</a></h3>
 						
 					</div>
@@ -278,13 +257,10 @@
 					<div class="staff">
 						<div class="staff-img" style="background-image: url(images/staff-3.jpg);">
 							<ul class="fh5co-social">
-								<li><a href="#"><i class="icon-facebook2"></i></a></li>
-								<li><a href="#"><i class="icon-twitter2"></i></a></li>
-								<li><a href="#"><i class="icon-dribbble2"></i></a></li>
-								<li><a href="#"><i class="icon-github"></i></a></li>
+							<P>AGG 4</P>
 							</ul>
 						</div>
-						<span>Health Teacher</span>
+						<span>AGG 4</span>
 						<h3><a href="#">Mike Smith</a></h3>
 						
 					</div>

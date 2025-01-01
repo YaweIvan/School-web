@@ -82,7 +82,7 @@
 			   			<div class="col-md-8 col-md-offset-2 text-center slider-text">
 			   				<div class="slider-text-inner">
 			   					<h1 class="heading-section">About Us</h1>
-									<h2>Free html5 templates Made by <a href="http://freehtml5.co/" target="_blank">freehtml5.co</a></h2>
+									<h2>Founded in 2013 <a href="http://freehtml5.co/" target="_blank">Strive For A Sustainable Future</a></h2>
 			   				</div>
 			   			</div>
 			   		</div>
@@ -95,8 +95,8 @@
 	<div id="fh5co-about">
 		<div class="container">
 			<div class="col-md-6 animate-box">
-				<span>About Our University</span>
-				<h2>Welcome to Education Website</h2>
+				<span>About Our School</span>
+				<h2>Welcome to Buddo Parents Academy</h2>
 				<p>Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat cauctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per Mauris in erat justo.</p>
 				<p>Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed.</p>
 				<p>Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat cauctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per Mauris in erat justo.</p>

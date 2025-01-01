@@ -84,9 +84,9 @@
 		   			<div class="row">
 			   			<div class="col-md-8 col-md-offset-2 text-center slider-text">
 			   				<div class="slider-text-inner">
-			   					<h1>The Roots of Education are Bitter, But the Fruit is Sweet</h1>
-									<h2>Brought to you by <a href="http://freehtml5.co/" target="_blank">freehtml5.co</a></h2>
-									<p><a class="btn btn-primary btn-lg" href="#">Start Learning Now!</a></p>
+			   					<h1>STRIVE FOR A SUSTAINABLE FUTURE</h1>
+									<h2>Is Our Motto</h2>
+									<p><a class="btn btn-primary btn-lg" href="{{ route('contact') }}">Start Learning Now!</a></p>
 			   				</div>
 			   			</div>
 			   		</div>
@@ -98,9 +98,9 @@
 		   			<div class="row">
 			   			<div class="col-md-8 col-md-offset-2 text-center slider-text">
 			   				<div class="slider-text-inner">
-			   					<h1>The Great Aim of Education is not Knowledge, But Action</h1>
-									<h2>Brought to you by <a href="http://freehtml5.co/" target="_blank">freehtml5.co</a></h2>
-									<p><a class="btn btn-primary btn-lg btn-learn" href="#">Start Learning Now!</a></p>
+			   					<h1>The Roots of Education are Bitter, But the Fruit is Sweet</h1>
+									<!--<h2>Brought to you by <a href="http://freehtml5.co/" target="_blank">freehtml5.co</a></h2>-->
+									<p><a class="btn btn-primary btn-lg btn-learn" href="{{ route('contact') }}">Start Learning Now!</a></p>
 			   				</div>
 			   			</div>
 			   		</div>
@@ -112,9 +112,9 @@
 		   			<div class="row">
 			   			<div class="col-md-8 col-md-offset-2 text-center slider-text">
 			   				<div class="slider-text-inner">
-			   					<h1>We Help You to Learn New Things</h1>
-									<h2>Brought to you by <a href="http://freehtml5.co/" target="_blank">freehtml5.co</a></h2>
-									<p><a class="btn btn-primary btn-lg btn-learn" href="#">Start Learning Now!</a></p>
+			   					<h1>The Great Aim of Education is not Knowledge, But Action</h1>
+									<!--<h2>Brought to you by <a href="http://freehtml5.co/" target="_blank">freehtml5.co</a></h2>-->
+									<p><a class="btn btn-primary btn-lg btn-learn" href="{{ route('contact') }}">Start Learning Now!</a></p>
 			   				</div>
 			   			</div>
 			   		</div>
@@ -133,24 +133,26 @@
 				<div class="col-md-10 col-md-offset-1">
 					<div class="row">
 						<div class="col-md-3 col-sm-6 text-center animate-box">
-							<span class="icon"><i class="icon-world"></i></span>
-							<span class="fh5co-counter js-counter" data-from="0" data-to="3297" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="fh5co-counter-label">Foreign Followers</span>
+							<span class="icon"><i class="icon-head"></i></span>
+							<span class="fh5co-counter js-counter" data-from="0" data-to="25" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="fh5co-counter-label">Teachers</span>
 						</div>
+						
+						
 						<div class="col-md-3 col-sm-6 text-center animate-box">
 							<span class="icon"><i class="icon-study"></i></span>
-							<span class="fh5co-counter js-counter" data-from="0" data-to="3700" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="fh5co-counter js-counter" data-from="0" data-to="500" data-speed="5000" data-refresh-interval="50"></span>
 							<span class="fh5co-counter-label">Students Enrolled</span>
 						</div>
 						<div class="col-md-3 col-sm-6 text-center animate-box">
 							<span class="icon"><i class="icon-bulb"></i></span>
-							<span class="fh5co-counter js-counter" data-from="0" data-to="5034" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="fh5co-counter js-counter" data-from="0" data-to="09" data-speed="5000" data-refresh-interval="50"></span>
 							<span class="fh5co-counter-label">Classes Complete</span>
 						</div>
 						<div class="col-md-3 col-sm-6 text-center animate-box">
 							<span class="icon"><i class="icon-head"></i></span>
-							<span class="fh5co-counter js-counter" data-from="0" data-to="1080" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="fh5co-counter-label">Certified Teachers</span>
+							<span class="fh5co-counter js-counter" data-from="0" data-to="60" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="fh5co-counter-label">Certified Staff</span>
 						</div>
 					</div>
 				</div>
@@ -161,8 +163,8 @@
 	<div id="fh5co-about">
 		<div class="container">
 			<div class="col-md-6 animate-box">
-				<span>About Our University</span>
-				<h2>Welcome to Education Website</h2>
+				<span>SCHOOL HISTORY</span>
+				<h2>Welcome To Buddo Parents Academy</h2>
 				<p>Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat cauctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per Mauris in erat justo.</p>
 				<p>Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed.</p>
 				<p>Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat cauctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per Mauris in erat justo.</p>
@@ -175,7 +177,7 @@
 
 	<div id="fh5co-gallery" class="fh5co-bg-section">
 		<div class="row text-center">
-			<h2><span> Gallery</span></h2>
+			<h2><p><a class="btn btn-primary btn-lg" href="{{ url('/pricing') }}">GALLERY</a></p></h2>
 		</div>
 		<div class="row">
 			<div class="col-md-3 col-padded">
